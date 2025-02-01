@@ -1,4 +1,4 @@
-import { useNeibouhooring } from "../hooks/useNeibouhooring"
+import { useNeibouhooring } from "../../hooks/useNeibouhooring"
 import { NavLink } from "react-router"
 import "./borders.css"
 

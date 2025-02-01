@@ -2,7 +2,7 @@ import useCountryDetails from "../../hooks/useCountryDetails"
 import { NavLink, useParams } from "react-router"
 import { DetailsDataProps } from "../../interfaces/detailsData"
 import "./countryDetail.css"
-import Borders from "../../components/borders"
+import Borders from "../../components/borders/borders"
 
 const CountryDetail = () => {
     const { countryName } = useParams<{ countryName: string }>()

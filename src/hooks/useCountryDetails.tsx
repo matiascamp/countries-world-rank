@@ -9,7 +9,7 @@ const fetchCountryDetails = async (name:string) => {
 }
 
 const useCountryDetails = (name: string) => {
-    const [detailsData, setDetailsData] = useState<DetailsDataProps | null>(null)
+    const [detailsData, setDetailsData] = useState<DetailsDataProps[] | null>(null)
 
     useEffect(() => {
         if (!name) return;
