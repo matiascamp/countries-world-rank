@@ -1,0 +1,9 @@
+#root {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-image: url('./assets/Logo.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 6%;
+  background-size: 200px;
+}

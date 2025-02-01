@@ -1,0 +1,130 @@
+.detail-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.country-container {
+    width: 100%;
+    max-width: 60%;
+    max-height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid #282B30;
+    background-color: #1c1d1f;
+    position: relative;
+    border-radius: 8px;
+    padding-top: 10%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.country-container .image-container img {
+    position: absolute;
+    top: -5%;
+    width: 250px;
+    border-radius: 8px;
+}
+
+.country-container h2 {
+    margin: 2rem 0 0  0;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.country-container h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.population-area {
+    width: 100%;
+    justify-content: center;
+    gap: 32px;
+    margin: 3rem 0;
+}
+
+.population-area,
+.population-area span {
+    display: flex;
+}
+
+.population-area span {
+    padding: 0 0.5rem;
+    background-color: #282B30;
+    border-radius: 12px;
+    gap: 5px;
+    max-width: 240px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #D2D5DA;
+
+}
+
+.population-area span p {
+    margin: 0;
+    padding: 3px;
+    margin: 7px;
+}
+
+.population-area span p:last-child {
+    padding-left: 1rem;
+    border-left: 1px solid #1B1D1F;
+}
+
+.detail-last{
+    border-bottom: 1px solid #6C727F !important;
+}
+
+.detail-last,
+.detail {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem 0rem;
+    border-top: 1px solid #6C727F;
+}
+
+.detail-last span,
+.detail span {
+    padding: 1rem 1rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: #D2D5DA;
+}
+
+.Neighbouring-container {
+    width: 100%;
+    display: flex;
+    padding: 2rem 2rem 4rem 2rem;
+    flex-direction: column;
+    justify-content: start;
+}
+
+a > button {
+    padding:0.5rem;
+    background-color: #282B30;
+    border-radius: 8px;
+    border:none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #D2D5DA;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+a > button:hover {
+    background-color: #5a5c63;
+}
+
