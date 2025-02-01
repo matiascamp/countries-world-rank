@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import "./countryList.css"
-import Pagination from "../../components/pagination/pagination";
-import FilterRegions from "../../components/filterRegions/filterRegions";
 import { contextProfile } from "../../context/useContext";
 import { useFilterAndSort } from "../../hooks/useFilterAndSort";
-import Search from "../../components/search";
 import { NavLink } from "react-router";
+import Pagination from "../../components/pagination/pagination";
+import FilterRegions from "../../components/filterRegions/filterRegions";
+import Search from "../../components/search";
 import SearchIcon from '../../assets/Search.svg'
+import "./countryList.css"
 
 
 const CountriesList = () => {

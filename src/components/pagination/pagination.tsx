@@ -1,7 +1,7 @@
 
 import "./pagination.css"
-import Arrow from "../assets/arrow.svg"
-import ArrowF from "../assets/arrow-f.svg"
+import Arrow from "../../assets/arrow.svg"
+import ArrowF from "../../assets/arrow-f.svg"
 
 interface PaginationProps {
     currentPage: number;
